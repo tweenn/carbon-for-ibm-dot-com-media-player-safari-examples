@@ -1,0 +1,28 @@
+{
+	"name": "carbon-for-ibm-dot-com-media-player-safari-examples",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"repository": "git@github.com:tweenn/carbon-for-ibm-dot-com-media-player-safari-examples.git",
+	"author": "Felipe Zuntini <felipezuntini@hotmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@carbon/ibmdotcom-services": "^1.39.0",
+		"lit": "^2.4.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.19.6",
+		"@storybook/addon-a11y": "^6.5.12",
+		"@storybook/addon-actions": "^6.5.12",
+		"@storybook/addon-essentials": "^6.5.12",
+		"@storybook/addon-links": "^6.5.12",
+		"@storybook/builder-webpack4": "^6.5.12",
+		"@storybook/manager-webpack4": "^6.5.12",
+		"@storybook/web-components": "^6.5.12",
+		"babel-loader": "^8.2.5",
+		"lit-html": "^2.4.0"
+	},
+	"scripts": {
+		"storybook": "start-storybook -p 6006",
+		"build-storybook": "rm -rf ./docs; build-storybook -o ./docs"
+	}
+}
